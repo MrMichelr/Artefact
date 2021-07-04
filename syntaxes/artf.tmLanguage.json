@@ -1,0 +1,92 @@
+{
+    "name": "Artefact",
+    "scopeName": "source.artf",
+    "fileTypes": [
+        ".artf",
+        ".*a"
+    ],
+    "patterns": [
+        { "include": "#artifacts" },
+        { "include": "#keywords" }
+    ],
+    "repository": {
+        "artifacts": {
+            "patterns": [
+                { "include": "#headings" },
+                { "include": "#comments" }
+            ]
+        },
+        "keywords": {
+            "patterns": [
+                { "include": "#todo" }
+            ]
+        },
+        "headings": {
+            "patterns": [{
+                    "name": "heading.artf",
+                    "match": "^([*]{0,3})(?:[ ])+(.)*",
+                    "patterns": [{
+                            "name": "heading.2.artf",
+                            "match": "^([*]{3})(?:[ ])+(.)*",
+                            "captures": {
+                                "1": {
+                                    "name": "punctuation.definition.heading.artf"
+                                },
+                                "2": {
+                                    "name": "entity.name.section.artf"
+                                },
+                                "3": {
+                                    "name": "punctuation.definition.heading.artf"
+                                }
+                            }
+                        },
+                        {
+                            "name": "heading.1.artf",
+                            "match": "^([*]{2})(?:[ ])+((.)*",
+                            "captures": {
+                                "1": {
+                                    "name": "punctuation.definition.heading.artf"
+                                },
+                                "2": {
+                                    "name": "entity.name.section.artf"
+                                },
+                                "3": {
+                                    "name": "punctuation.definition.heading.artf"
+                                }
+                            }
+                        },
+                        {
+                            "name": "heading.1.artf",
+                            "match": "^([*]{1})(?:[ ])+(.)*",
+                            "captures": {
+                                "1": {
+                                    "name": "punctuation.definition.heading.artf"
+                                },
+                                "2": {
+                                    "name": "entity.name.section.artf"
+                                },
+                                "3": {
+                                    "name": "punctuation.definition.heading.artf"
+                                }
+                            }
+                        }
+                    ]
+
+                }
+
+            ]
+        },
+        "comments": {
+            "patterns": [
+
+            ]
+        },
+        "todo": {
+            "patterns": [{
+                "name": "keyword.control.artf",
+                "match": "\\b(TODO)\\b"
+            }]
+        }
+    }
+
+}

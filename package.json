@@ -1,0 +1,66 @@
+{
+    "name": "artefact",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "icon": "icons/icon.png",
+    "publisher": "MrMichelr",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "galleryBanner": {
+        "color": "#FFDE00",
+        "theme": "dark"
+    },
+    "categories": ["Programming Languages", "Other"],
+
+    "main": "./out/extension.js",
+    "bugs": {
+        "url": "https://github.com/MrMichelr/Artefact/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MrMichelr/Artefact"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "start": "",
+        "doc": "node support/build_doc.js",
+        "test": "nodemon -q artefact/artefact.js",
+        "package": "vsce package"
+    },
+    "activationEvents": [
+        "workspaceContains:**/*.art",
+        "onLanguage:artf"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "nodemon": "^2.0.9",
+        "@types/vscode": "^1.40.0",
+        "vsce": "^1.87.0"
+    },
+    "nodemonConfig": {
+        "delay": 100
+    },
+
+    "contributes": {
+        "languages": [{
+            "id": "artefact",
+            "aliases": ["Artefact", "artf"],
+            "extensions": [".artf", ".*a"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "artefact",
+            "scopeName": "source.artf",
+            "path": "./syntaxes/artf.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "artefact",
+            "path": "./snippets/artefact.code-snippets"
+        }]
+    }
+
+
+}
