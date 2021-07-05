@@ -1,4 +1,4 @@
-# Cinemapp
+# Artefact
 
 <div align="center" style="text-align: center">
 <img src="icons/icon.svg" width="128px" alt="Icon">
