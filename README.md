@@ -2,7 +2,7 @@
 <img src="doc/img/icons/icon.svg" width="128px" alt="Icon">
 <H1>Artefact: A templating language</H1>
 <span>
-<a href="https://github.com/MrMichelr/Artefact/blob/main/doc/README.md">Docs</a>
+<a href="https://github.com/MrMichelr/Artefact/blob/master/doc/README.md">Docs</a>
 |
 <a href="https://github.com/MrMichelr/Artefact/blob/master/CHANGELOG.md">Changelog</a>
 |

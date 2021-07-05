@@ -2,10 +2,10 @@
 __This document describes feature that are not implemented, yet. Please refer to the [Docs](https://github.com/MrMichelr/Artefact/blob/main/doc/README.md) for the current state of Artefact__
 
 ## Table of Content
-- [Version 1](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#version-1)
-    - [Basic Artifacts](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#basic-artifacts)
-    - [Variables](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#variables)
-    - [Compilation](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#compilation)  
+- [Version 1](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#version-1)
+    - [Basic Artifacts](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#basic-artifacts)
+    - [Variables](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#variables)
+    - [Compilation](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#compilation)  
 
 ## Version 1
 **Progress:**
@@ -18,12 +18,12 @@ Semi:  ◧
 <br/>
 
 ### Basic Artifacts
-- [Headings](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#headings)
-- [Link](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#link)
-- [Image](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#image)
-- [Citation Block](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#citation-block)
-- [Paragraph](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#paragraph)
-- [Specials](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#specials)
+- [Headings](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#headings)
+- [Link](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#link)
+- [Image](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#image)
+- [Citation Block](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#citation-block)
+- [Paragraph](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#paragraph)
+- [Specials](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#specials)
 
 #### Headings
 <span><b>ETA: </b><b class="todo"></b></span>
@@ -122,9 +122,9 @@ The Paragraph is the default. It's the only block without any artifacts
 
 #### Specials
 
-- [Comments](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#comments)
-- [Meta Tags](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#meta-tags)
-- [Anchors](https://github.com/MrMichelr/Artefact/blob/master/doc/upcoming.md#anchors)
+- [Comments](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#comments)
+- [Meta Tags](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#meta-tags)
+- [Anchors](https://github.com/MrMichelr/Artefact/blob/master/doc/Upcoming.md#anchors)
 
 #### Comments
 <span><b>ETA: </b><b class="todo"></b></span>
