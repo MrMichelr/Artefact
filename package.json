@@ -1,0 +1,22 @@
+{
+    "name": "artefact",
+    "icon": "https://github.com/MrMichelr/Artefact/doc/img/icons/icon.png",
+    "version": "0.0.1",
+    "description": "A templating language",
+    "main": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MrMichelr/Artefact.git"
+    },
+    "keywords": ["Artefact"],
+    "author": "Michel Rodriguez",
+    "license": "MIT",
+    "bugs": { "url": "https://github.com/MrMichelr/Artefact/issues" },
+    "homepage": "https://github.com/MrMichelr/Artefact#readme",
+    "scripts": {
+        "start": "",
+        "test": ""
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
