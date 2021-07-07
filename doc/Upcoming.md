@@ -154,12 +154,20 @@ Meta tags are subset of Comments in **Artefact**
 
 The anchor is a good way to add a custom link to your own file anytime you want
 
+###### Declare
+
 ```
 ± -(name of the anchor)
 ```
 
 - The artifact for the meta tags is `±`, it's follow by a space
 - After the artifact you add the composite `-()` with the name of your anchor
+
+###### Use
+
+```
+@ Link to the anchor (±/name of the anchor)
+```
 
 <br/>
 
