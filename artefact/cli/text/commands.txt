@@ -1,0 +1,13 @@
+
+artefact <command>
+
+Usage:
+
+artefact build <foo>    build your artefact file into your <foo> html file
+artefact clear          Delete all build file 
+artefact clear <foo>    Delete your <foo> html file
+artefact help <term>    search for help on <term>
+
+all commands:
+    build, help
+

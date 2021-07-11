@@ -1,0 +1,9 @@
+
+ARTEFACT - CLEAR
+
+Synopsis :
+    artefact clear
+    artefact clear <filename>
+
+Description :
+    

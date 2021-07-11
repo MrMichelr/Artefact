@@ -1,6 +1,8 @@
-exports.tokenizer = function(str) {
+exports.tokenizer = tokenizer;
 
-    console.log("input : " + str)
+function tokenizer(str) {
+
+    //console.log("input : " + str)
 
     if (str === undefined) {
         return {
