@@ -9,7 +9,7 @@ function lexer(str) {
         let line = lines[i]
 
 
-        result.push(require('./tokenizer').tokenizer(line))
+        result.push(require('./tokenizer').tokenizer(line, i))
     }
 
     return result;
