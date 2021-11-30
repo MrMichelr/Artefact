@@ -1,7 +1,1 @@
-.vscode/*
-.vscodeignore
-*.vsix
-.DS_Store
-tests/*
-ideas/*
-builds/*
+node_modules

@@ -1,25 +1,29 @@
 {
-    "name": "artefact",
-    "version": "0.1.0",
-    "description": "A templating language",
-    "main": "index.js",
-    "bin": { "artefact": "artefact/cli/artefact.js" },
-    "directories": {
-        "doc": "doc",
-        "test": "tests"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/MrMichelr/Artefact.git"
-    },
-    "keywords": [],
-    "author": "Michel Rodriguez",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/MrMichelr/Artefact/issues"
-    },
-    "homepage": "https://github.com/MrMichelr/Artefact#readme"
+  "name": "artefact",
+  "version": "1.0.0",
+  "description": "A templating language to generate html content",
+  "main": "lib/artefact.ts",
+  "scripts": {
+    "compile": "tsc && node lib/artefact",
+    "clean": "cd ./lib && find . -name '*.js' -delete",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMichelr/Artefact.git"
+  },
+  "keywords": [
+    "templating",
+    "language"
+  ],
+  "author": "Michel Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrMichelr/Artefact/issues"
+  },
+  "homepage": "https://github.com/MrMichelr/Artefact#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "type": "module"
 }
