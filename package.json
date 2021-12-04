@@ -1,29 +1,30 @@
 {
   "name": "artefact",
-  "version": "1.0.0",
-  "description": "A templating language to generate html content",
-  "main": "lib/artefact.ts",
-  "scripts": {
-    "compile": "tsc && node lib/artefact",
-    "clean": "cd ./lib && find . -name '*.js' -delete",
-    "test": ""
+  "author": "Michel Rodriguez",
+  "homepage": "https://github.com/MrMichelr/Artefact#readme",
+  "version": "0.0.1",
+  "license": "ISC",
+  "description": "Artefact is a templating language with a simple sytem",
+  "keywords": [
+    "Artefact",
+    "Templating",
+    "Language"
+  ],
+  "bugs": {
+    "url": "https://github.com/MrMichelr/Artefact/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MrMichelr/Artefact.git"
   },
-  "keywords": [
-    "templating",
-    "language"
-  ],
-  "author": "Michel Rodriguez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MrMichelr/Artefact/issues"
+
+  "main": "./lib/artefact.js",
+  "bin": {
+    "artf": "./bin/artf"
   },
-  "homepage": "https://github.com/MrMichelr/Artefact#readme",
-  "devDependencies": {
-    "typescript": "^4.5.2"
-  },
-  "type": "module"
+  
+  "scripts": {
+    "start": "node lib/artf"
+  }
+  
 }
