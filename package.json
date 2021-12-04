@@ -24,7 +24,7 @@
   },
   
   "scripts": {
-    "start": "node lib/artf"
+    "start": "npm link && node lib/artf"
   }
   
 }
