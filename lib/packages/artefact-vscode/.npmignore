@@ -1,0 +1,20 @@
+# Test files
+test/
+out/
+
+# Documentation files
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+
+# Configuration files
+.eslintrc.js
+.babelrc
+
+# Local environment files
+.env
+
+# Git files
+.git/
+.gitignore
+.npmignore

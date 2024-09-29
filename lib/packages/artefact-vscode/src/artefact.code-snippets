@@ -1,0 +1,101 @@
+{
+    "Artefact Heading": {
+        "prefix": "ah",
+        "body": [
+            "* ${1:Heading Title}"
+        ],
+        "description": "Insert a heading"
+    },
+    "Artefact Heading 2": {
+        "prefix": "ah2",
+        "body": [
+            "** ${1:Heading Title}"
+        ],
+        "description": "Insert a heading"
+    },
+    "Artefact Heading 3": {
+        "prefix": "ah3",
+        "body": [
+            "*** ${1:Heading Title}"
+        ],
+        "description": "Insert a heading"
+    },
+    "Artefact Heading 4": {
+        "prefix": "ah4",
+        "body": [
+            "**** ${1:Heading Title}"
+        ],
+        "description": "Insert a heading"
+    },
+    "Artefact Heading 5": {
+        "prefix": "ah5",
+        "body": [
+            "***** ${1:Heading Title}"
+        ],
+        "description": "Insert a heading"
+    },
+    "Artefact Heading 6": {
+        "prefix": "ah6",
+        "body": [
+            "****** ${1:Heading Title}"
+        ],
+        "description": "Insert a heading"
+    },
+    "Artefact Link": {
+        "prefix": "al",
+        "body": [
+            "@ ${1:Link Text} (${2:URL})"
+        ],
+        "description": "Insert a link"
+    },
+    "Artefact Variable": {
+        "prefix": "av",
+        "body": [
+            "$ ${1:variableName} = ${2:value}"
+        ],
+        "description": "Declare a variable"
+    },
+    "Artefact Image": {
+        "prefix": "ai",
+        "body": [
+            "& -- ${1:imageAlt} (${2:Source})"
+        ],
+        "description": "Declare a variable"
+    },
+    "Artefact Image with caption": {
+        "prefix": "aic",
+        "body": [
+            "& -- ${1:imageAlt} (${2:Source})",
+            "& -> ${3:Caption}"
+        ],
+        "description": "Declare a variable"
+    },
+    "Artefact Citation": {
+        "prefix": "ac",
+        "body": [
+            "\" ${1:Citation Text}\""
+        ],
+        "description": "Insert a citation"
+    },
+    "Artefact Comment": {
+        "prefix": "acm",
+        "body": [
+            "// ${1:Comment}"
+        ],
+        "description": "Insert a comment"
+    },
+    "Artefact Meta Tag": {
+        "prefix": "amt",
+        "body": [
+            "/- (${1:Tag Name}) ${2:Tag Value}"
+        ],
+        "description": "Insert a meta tag"
+    },
+    "Artefact Anchor": {
+        "prefix": "aa",
+        "body": [
+            "±- (${1:Anchor Name})"
+        ],
+        "description": "Insert an anchor"
+    }
+}

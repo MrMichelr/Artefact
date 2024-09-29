@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "lib": ["es2017", "dom"],
+        "declaration": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "composite": true,
+        "baseUrl": ".",
+        "paths": {
+            "@artefact/*": ["lib/packages/*/src"]
+        },
+        "noEmit": true
+    },
+    "references": [
+        { "path": "./lib/packages/core" }, // Ensure this path is correct
+        //{ "path": "./lib/packages/cli" }
+    ],
+    "exclude": ["node_modules", "**/*.spec.ts", "dist"]
+}

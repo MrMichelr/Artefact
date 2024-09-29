@@ -20,29 +20,31 @@
 </div>
 
 ## Welcome to Artefact
+
 **Artefact** is a simple Templating language. His goal is to write document quickly, with structure and readability.
 
 Artefact is based on a simple concept. Each start of a line begins with an artifact (symbol or sequence of symbols) that defines the type of content that will be seen afterwards.
 
 - [Getting Started](https://github.com/MrMichelr/Artefact#getting-started)
-    - [Installing Artefact from Source](https://github.com/MrMichelr/Artefact#installing-artefact-from-source)
-    - [How to Build](https://github.com/MrMichelr/Artefact#how-to-build)
-    - [First Steps](https://github.com/MrMichelr/Artefact#first-steps)
+  - [Installing Artefact from Source](https://github.com/MrMichelr/Artefact#installing-artefact-from-source)
+  - [How to Build](https://github.com/MrMichelr/Artefact#how-to-build)
+  - [First Steps](https://github.com/MrMichelr/Artefact#first-steps)
 - [Learning More](https://github.com/MrMichelr/Artefact#learning-more)
 
-
 ## Getting Started
+
 ### Installing Artefact from Source
 
 **Warning:** this part is not final until the first release
 
-``` shell
+```shell
 git clone https://github.com/MrMichelr/Artefact
 cd artefact
 npm install
 ```
 
 ### How to Build
+
 To build your Artefact file into a HTML File use:
 
 ```
@@ -50,7 +52,9 @@ To build your Artefact file into a HTML File use:
 ```
 
 ### First Steps
+
 **Warning:** this part need to be completed
 
 ## Learning More
+
 Be sure to look at the [documentation index](https://github.com/MrMichelr/Artefact/blob/main/doc/README.md) for a bird's view of the available documentation.

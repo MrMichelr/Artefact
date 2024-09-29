@@ -1,0 +1,13 @@
+{
+    "iconDefinitions": {
+        "artefactFile": {
+            "iconPath": "../assets/icon.svg"
+        }
+    },
+    "fileExtensions": {
+        "artf": "artefactFile"
+    },
+    "fileNames": {},
+    "folderNames": {},
+    "languageIds": {}
+}

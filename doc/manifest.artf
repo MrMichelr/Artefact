@@ -1,0 +1,40 @@
+// This document is a Manifest for the V1.0
+// of the Artefact Templating Language
+// This file will be compile in HTML or Markdown
+// so, you can add meta tags:
+
+/ -(name) content
+
+// Declare a Variable name
+$ name = Michel
+
+
+* Heading 1
+// We declare an anchor. This anchor is now fixed 
+// to the Heading 1
+± -(name of the anchor)
+** Heading 2
+*** Heading 3
+
+Paragraph more or less longer but you can add *emphazis* and /italic/ text inside.
+But if you have added a variable you can use it: 
+Hello $/name
+You can also use an inline @/link (https://example.com)
+
+" -- Citation Block
+" -> Author
+
+> -- Code Block
+> -- Code Block line 2
+
+@ Link Text (https://example.com)
+
+
+& -- Image (source)
+& -> caption
+
+// The anchor is a good way to add a custom link
+// to your own file anytime you want
+// You can go to your anchor with :
+
+Go to my @/anchor (name of the anchor)

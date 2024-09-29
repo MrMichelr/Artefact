@@ -1,0 +1,86 @@
+{
+  "name": "artefact-vscode",
+  "displayName": "Artefact Templating Language",
+  "description": "VSCode extension for the Artefact templating language.",
+  "version": "0.1.0",
+  "publisher": "Michel Rodriguez",
+  "engines": {
+    "vscode": "^1.1.37"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:artefact"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "artefact",
+        "extensions": [
+          ".artf"
+        ],
+        "aliases": [
+          "Artefact"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "artefact",
+        "scopeName": "source.artefact",
+        "path": "./src/artefact.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "artefact",
+        "path": "./src/artefact.code-snippets"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "artefact-icons",
+        "label": "Artefact Icons",
+        "path": "./src/artefact-icon-theme.json"
+      }
+    ],
+    "semanticTokens": {
+      "types": [
+        "variable",
+        "function",
+        "class",
+        "method",
+        "property",
+        "parameter",
+        "type",
+        "enum",
+        "interface",
+        "namespace",
+        "constant",
+        "string",
+        "number",
+        "boolean",
+        "null",
+        "object"
+      ],
+      "modifiers": [
+        "declaration",
+        "readonly",
+        "static",
+        "async",
+        "deprecated"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "vscode-test --user-data-dir=./.vscode-test-user-data"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "@types/vscode": "^1.93.0",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}

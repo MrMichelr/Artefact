@@ -1,0 +1,47 @@
+{
+    "scopeName": "source.artefact",
+    "patterns": [
+        {
+            "name": "comment.line.double-slash.artefact",
+            "begin": "//",
+            "end": "$"
+        },
+        {
+            "name": "keyword.control.heading.artefact",
+            "match": "(\\*{1,6})\\s+(.*)"
+        },
+        {
+            "name": "link.block.artefact",
+            "match": "@\\s*(.+?)\\s*\\((https?://[\\w.-]+(?:/[\\w.-]*)*)\\)"
+        },
+        {
+            "name": "link.inline.artefact",
+            "match": "@/(.+?)\\s*\\((https?://[\\w.-]+(?:/[\\w.-]*)*)\\)"
+        },
+        {
+            "name": "variable.parameter.artefact",
+            "match": "\\$\\s*(\\w+)\\s*=\\s*(.+)"
+        },
+        {
+            "name": "variable.usage.artefact",
+            "match": "\\$/(\\w+)"
+        },
+        {
+            "name": "image.artefact",
+            "match": "&\\s*--\\s*(.+?)\\s*\\((.+?)\\)"
+        },
+        {
+            "name": "citation.artefact",
+            "match": "\"\\s*--\\s*(.+?)"
+        },
+        {
+            "name": "meta.tag.artefact",
+            "match": "/\\s*-\\((\\w+)\\)\\s*(.+)"
+        },
+        {
+            "name": "anchor.artefact",
+            "match": "±\\s*-\\((\\w+)\\)"
+        }
+    ],
+    "repository": {}
+}
